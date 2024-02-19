@@ -1,0 +1,30 @@
+{
+  "name": "thoughtful-sort",
+  "version": "1.0.0",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "bin": {
+    "thoughtful-sort": "dist/src/index.js",
+    "ntms": "dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xddq/schema2typebox.git"
+  },
+  "scripts": {
+    "test": "glob \"src/**/*.test.ts\" \"test/**\" -c \"tsx --test\""
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "20.1.2",
+    "@types/node": "20.11.17",
+    "@typescript-eslint/eslint-plugin": "6.21.0",
+    "@typescript-eslint/parser": "6.21.0",
+    "esbuild": "0.19.12",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "glob": "10.3.10",
+    "prettier": "3.2.5",
+    "tsx": "4.7.1",
+    "typescript": "5.3.3"
+  }
+}
